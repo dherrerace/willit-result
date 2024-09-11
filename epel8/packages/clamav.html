@@ -5,53 +5,53 @@
   <body>
   <h1>clamav Info</h1>
     <p>
-      clamav was added to epel8 repo on 2024-09-04
-      <br>Page updated: 2024-09-04 02:40
+      clamav was added to epel8 repo on 2024-09-11
+      <br>Page updated: 2024-09-11 02:34
       <br><a href="../status-repo.html">Repo Status</a> -
       <a href="../../status-overall.html">Overall Status</a>
     </p>
 
     <p>
-      Source NVR: <b>clamav-0.103.11-1.el8</b> (2024-09-04)
+      Source NVR: <b>clamav-1.0.6-1.el8</b> (2024-09-11)
     </p>
 
     <h2>Binary Packages</h2>
     <table border=0>
       <tr>
           <td>clamav</td>
-          <td><b>clamav-0.103.11-1.el8</b></td>
+          <td><b>clamav-1.0.6-1.el8</b></td>
         </tr>
       <tr>
           <td>clamav-data</td>
-          <td><b>clamav-data-0.103.11-1.el8</b></td>
+          <td><b>clamav-data-1.0.6-1.el8</b></td>
         </tr>
       <tr>
           <td>clamav-devel</td>
-          <td><b>clamav-devel-0.103.11-1.el8</b></td>
+          <td><b>clamav-devel-1.0.6-1.el8</b></td>
         </tr>
       <tr>
           <td>clamav-doc</td>
-          <td><b>clamav-doc-0.103.11-1.el8</b></td>
+          <td><b>clamav-doc-1.0.6-1.el8</b></td>
         </tr>
       <tr>
           <td>clamav-filesystem</td>
-          <td><b>clamav-filesystem-0.103.11-1.el8</b></td>
+          <td><b>clamav-filesystem-1.0.6-1.el8</b></td>
+        </tr>
+      <tr>
+          <td>clamav-freshclam</td>
+          <td><b>clamav-freshclam-1.0.6-1.el8</b></td>
         </tr>
       <tr>
           <td>clamav-lib</td>
-          <td><b>clamav-lib-0.103.11-1.el8</b></td>
+          <td><b>clamav-lib-1.0.6-1.el8</b></td>
         </tr>
       <tr>
           <td>clamav-milter</td>
-          <td><b>clamav-milter-0.103.11-1.el8</b></td>
-        </tr>
-      <tr>
-          <td>clamav-update</td>
-          <td><b>clamav-update-0.103.11-1.el8</b></td>
+          <td><b>clamav-milter-1.0.6-1.el8</b></td>
         </tr>
       <tr>
           <td>clamd</td>
-          <td><b>clamd-0.103.11-1.el8</b></td>
+          <td><b>clamd-1.0.6-1.el8</b></td>
         </tr>
       </table>
 
@@ -76,6 +76,16 @@
           <td><a href="https://bugzilla.redhat.com/show_bug.cgi?id=2280855">2280855</a></td>
           <td>NEW</td>
           <td>On some systems clamdscan gets a permission denied error</td>
+        </tr>
+      <tr>
+          <td><a href="https://bugzilla.redhat.com/show_bug.cgi?id=2310063">2310063</a></td>
+          <td>ON_QA</td>
+          <td>CVE-2024-20506 clamav: ClamD process writes to log file while privileged without checking if its been replaced with a symlink [epel-8]</td>
+        </tr>
+      <tr>
+          <td><a href="https://bugzilla.redhat.com/show_bug.cgi?id=2310071">2310071</a></td>
+          <td>ON_QA</td>
+          <td>CVE-2024-20505 clamav: out-of-bounds read bug in the PDF file parser [epel-8]</td>
         </tr>
       </table>
 
